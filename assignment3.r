@@ -1,5 +1,5 @@
 #Part 1
-data = read.csv("C:/Users/hp/OneDrive/Desktop/LiU Sem I/Machine Learning/Lab/Lab 1/lab1/pima-indians-diabetes.csv", header=FALSE)
+data = read.csv("lab1/pima-indians-diabetes.csv", header=FALSE)
 
 data = subset(data, select= -c(V1,V3,V4,V5,V6,V7))
 
